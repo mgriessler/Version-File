@@ -4,7 +4,7 @@ At work I regularly need to share files with others over time through email. Thi
 
 # Description of program
 
-This program automates this process. 
+This program automates this process. An option to version a file is added to the file explorer right click context menu. 
 
 ## Example inputs and resulting outputs
 
