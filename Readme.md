@@ -36,3 +36,7 @@ This adds the option to the context menu for files. If you'd like to have the sa
 # Known corner cases/bugs
 
 If there are two files: 210521 schematic.pdf and 200521 schematic.pdf and you attempt to version the 200521 file it will prompt you to confirm you want to rename the file to 210521 schematic.pdf. If you say yes nothing will happen and you won't be informed. I'm ok with this.
+
+Should 26 versions of a file be generated in a single day and you get all the way up to 210521z schematic.pdf, the next version will be 210521{ schematic.pdf. The version after that will be 210521 210521{ schematic.pdf because of the way the regular expressions work.
+
+If your file happens to have six digits and a space at the beginning of the filename for whatever reason, the program has no way of knowing it's not an already versioned file. The most likely outcome is the prompt the the file is versioned at a different date and asking if you want to change it to the current date.
