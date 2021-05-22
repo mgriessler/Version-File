@@ -10,11 +10,11 @@ This program automates this process.
 
 Assuming today is May 21st, 2021
 
-* schematic.pdf -> 210521 schematic.pdf
-* 210521 schematic.pdf -> 210521b schematic.pdf
-* 210521b schematic.pdf -> 210521c schematic.pdf
-* 200521 schematic.pdf -> prompt to confirm you want to reversion. If yes the result is 210521 schematic.pdf. If no the file is unchanged
-* 200521q schematic.pdf -> prompt to confirm you want to reversion. If yes the result is 210521 schematic.pdf. If no the file is unchanged
+* `schematic.pdf` -> `210521 schematic.pdf`
+* `210521 schematic.pdf` -> `210521b schematic.pdf`
+* `210521b schematic.pdf` -> `210521c schematic.pdf`
+* `200521 schematic.pdf` -> prompt to confirm you want to reversion. If yes the result is `210521 schematic.pdf`. If no the file is unchanged
+* `200521q schematic.pdf` -> prompt to confirm you want to reversion. If yes the result is `210521 schematic.pdf`. If no the file is unchanged
 
 The last two items with prompts are cases that I don't see myself encountering, I don't revision already visioned files but I included them for the sake of completeness. They definitely break cross-platform compatibility.
 
@@ -35,8 +35,8 @@ This adds the option to the context menu for files. If you'd like to have the sa
 
 # Known corner cases/bugs
 
-If there are two files: 210521 schematic.pdf and 200521 schematic.pdf and you attempt to version the 200521 file it will prompt you to confirm you want to rename the file to 210521 schematic.pdf. If you say yes nothing will happen and you won't be informed. I'm ok with this.
+If there are two files: `210521 schematic.pdf` and `200521 schematic.pdf` and you attempt to version the 200521 file it will prompt you to confirm you want to rename the file to `210521 schematic.pdf`. If you say yes nothing will happen and you won't be informed. I'm ok with this.
 
-Should 26 versions of a file be generated in a single day and you get all the way up to 210521z schematic.pdf, the next version will be 210521{ schematic.pdf. The version after that will be 210521 210521{ schematic.pdf because of the way the regular expressions work.
+Should 26 versions of a file be generated in a single day and you get all the way up to `210521z schematic.pdf`, the next version will be `210521{ schematic.pdf`. The version after that will be `210521 210521{ schematic.pdf` because of the way the regular expressions work.
 
 If your file happens to have six digits and a space at the beginning of the filename for whatever reason, the program has no way of knowing it's not an already versioned file. The most likely outcome is the prompt the the file is versioned at a different date and asking if you want to change it to the current date.
