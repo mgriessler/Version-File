@@ -18,10 +18,6 @@ Assuming today is May 21st, 2021
 
 The last two items with prompts are cases that I don't see myself encountering, I don't revision already visioned files but I included them for the sake of completeness. They definitely break cross-platform compatibility.
 
-## Note
-
-It's probably important to note at this point that this program is written for a windows machine. I think at least os.rename works regardless of os and of course the commented out win32api stuff doesn't but otherwise idk.
-
 # Installation
 
 1. Pull git repo or download file to a directory.
@@ -42,3 +38,5 @@ Should 26 versions of a file be generated in a single day and you get all the wa
 If your file happens to have six digits and a space at the beginning of the filename for whatever reason, the program has no way of knowing it's not an already versioned file. The most likely outcome is the prompt the the file is versioned at a different date and asking if you want to change it to the current date.
 
 Doesn't work on files/folders that require administrator access to edit. I'm not sure how to make this work.
+
+At minimum the prompts are windows only.
