@@ -39,4 +39,4 @@ If your file happens to have six digits and a space at the beginning of the file
 
 Doesn't work on files/folders that require administrator access to edit. I'm not sure how to make this work.
 
-At minimum the prompts are windows only.
+At minimum, the prompts are windows only.
