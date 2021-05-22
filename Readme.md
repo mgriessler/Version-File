@@ -35,7 +35,7 @@ If there are two files: `210521 schematic.pdf` and `200521 schematic.pdf` and yo
 
 Should 26 versions of a file be generated in a single day and you get all the way up to `210521z schematic.pdf`, the next version will be `210521{ schematic.pdf`. The version after that will be `210521 210521{ schematic.pdf` because of the way the regular expressions work.
 
-If your file happens to have six digits and a space at the beginning of the filename for whatever reason, the program has no way of knowing it's not an already versioned file. The most likely outcome is the prompt that the file is versioned at a different date asking if you want to change it to the current date.
+If your file happens to have six digits, 0 to 1 a-z characters, and a space at the beginning of the filename for whatever reason, the program has no way of knowing it's not an already versioned file. The most likely outcome is the prompt that the file is versioned at a different date asking if you want to change it to the current date.
 
 Doesn't work on files/folders that require administrator access to edit. I'm not sure how to make this work.
 
