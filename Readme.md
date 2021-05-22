@@ -1,6 +1,6 @@
 # Motivation
 
-At work I regularly need to share files with others over time through email. This happens a lot with pdfs and zipped files that are generated outputs of design documents. To help the recipients distinguish between a version of a file I sent last week vs today I often modify prepend the file name with the data. For example, the document important schematic.pdf becomes 210521 important schematic.pdf. And if I'm sending a second update for the day it'll be 210521b schematic.pdf. Oh man, what a pain that is to manually do.
+At work I regularly need to share files with others over time through email. This happens a lot with pdfs and zipped files that are generated outputs of design documents. To help the recipients distinguish between a version of a file I sent last week vs today I often modify prepend the file name with the date. For example, the document `schematic.pdf` becomes `210521 schematic.pdf`. And if I'm sending a second update for the day it'll be `210521b schematic.pdf`. Oh man, what a pain that is to manually do.
 
 # Description of program
 
