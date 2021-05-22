@@ -31,7 +31,7 @@ It's probably important to note at this point that this program is written for a
 1. Create a key under the key you just created and name it command
 1. Change the (Default) key value to `PATH_TO_PYTHON\python.exe "PATH_TO_PROGRAM\version-file.py" "%1"`
 
-This adds the option to the context menu for files. If you'd like to have the same option for directories follow the same process for HKEY_CLASSES_ROOT\Directory\shell.
+This adds the option to the context menu for files. If you'd like to have the same option for directories follow the same process for HKEY_CLASSES_ROOT/Directory/shell.
 
 # Known corner cases/bugs
 
