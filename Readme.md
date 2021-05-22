@@ -10,11 +10,11 @@ This program automates this process.
 
 Assuming today is May 21st, 2021
 
-schematic.pdf -> 210521 schematic.pdf
-210521 schematic.pdf -> 210521b schematic.pdf
-210521b schematic.pdf -> 210521c schematic.pdf
-200521 schematic.pdf -> prompt to confirm you want to reversion. If yes the result is 210521 schematic.pdf. If no the file is unchanged
-200521q schematic.pdf -> prompt to confirm you want to reversion. If yes the result is 210521 schematic.pdf. If no the file is unchanged
+* schematic.pdf -> 210521 schematic.pdf
+* 210521 schematic.pdf -> 210521b schematic.pdf
+* 210521b schematic.pdf -> 210521c schematic.pdf
+* 200521 schematic.pdf -> prompt to confirm you want to reversion. If yes the result is 210521 schematic.pdf. If no the file is unchanged
+* 200521q schematic.pdf -> prompt to confirm you want to reversion. If yes the result is 210521 schematic.pdf. If no the file is unchanged
 
 The last two items with prompts are cases that I don't see myself encountering, I don't revision already visioned files but I included them for the sake of completeness. They definitely break cross-platform compatibility.
 
