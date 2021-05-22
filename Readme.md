@@ -35,4 +35,4 @@ This adds the option to the context menu for files. If you'd like to have the sa
 
 # Known corner cases/bugs
 
-If there are two files: 210521 schematic.pdf and 200521 schematic.pdf and you attempt to version the 200521 file it will prompt you to confirm you want to rename the file to 210521 schematic.pdf. If you say yes nothing and you won't be informed. I'm ok with this.
+If there are two files: 210521 schematic.pdf and 200521 schematic.pdf and you attempt to version the 200521 file it will prompt you to confirm you want to rename the file to 210521 schematic.pdf. If you say yes nothing will happen and you won't be informed. I'm ok with this.
