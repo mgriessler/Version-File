@@ -16,7 +16,7 @@ Assuming today is May 21st, 2021
 * `200521 schematic.pdf` -> prompt to confirm you want to reversion. If yes the result is `210521 schematic.pdf`. If no the file is unchanged
 * `200521q schematic.pdf` -> prompt to confirm you want to reversion. If yes the result is `210521 schematic.pdf`. If no the file is unchanged
 
-The last two items with prompts are cases that I don't see myself encountering, I don't revision already visioned files but I included them for the sake of completeness. They definitely break cross-platform compatibility.
+The last two items with prompts are cases that I don't see myself encountering, I don't revision already visioned files but I included them for the sake of completeness.
 
 # Installation
 
